@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags always come first -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <!-- Additional CSS must be placed after Bootstrap CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Photography Website</title>
-</head>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- endbuild -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sun Girl Photography</title>
+  </head>
 
-<body>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light more">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img src="img/logo.svg" alt="logo" height="50" width="50"
+        /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sunGirlNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <div class="collapse navbar-collapse" id="sunGirlNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mx-2 text-right">
+              <a class="nav-link" href="index.html"> Home</a>
+            </li>
+            <li class="nav-item mx-2 text-right">
+              <a class="nav-link" href="about.html"> About</a>
+            </li>
+            <li class="nav-item mx-2 text-right">
+              <a class="nav-link" href="gallery.html"> Gallery</a>
+            </li>
+            <li class="nav-item mx-md-2 mr-md-5 text-right">
+              <a class="nav-link" href="contact.html"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
 
-</body>
+    <section class="container-fluid hero vw-100 vh-100">
+      <div class="row row-content">
+        <div class="col-4 ml-5">
+          <h1>Lorem Ipsum</h1>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi beatae libero ipsum ut unde quaerat harum obcaecati, dolores atque aliquid vero hic natus laborum mollitia nemo.</p>
+        </div>
+      </div>
+    </section>
 
+    <section class="container">
+    </section>
+
+
+  </body>
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- endbuild -->
 </html>
