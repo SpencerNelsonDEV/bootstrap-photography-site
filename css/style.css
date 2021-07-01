@@ -9,15 +9,77 @@ a:hover {
 }
 
 .navbar {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 0;
 }
 
 .hero {
   background-image: url("/img/hero-img.jpg");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
-  overflow: hidden;
+  position: relative;
+  background-color: #343a40;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
   color: white;
+}
+
+.sub-head {
+  font-size: 1.2em;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #d8d495;
+  border-color: #d8d495;
+}
+
+.container-gray {
+  background-color: darkgray;
+}
+
+.site-footer {
+  background-color: grey;
+}
+
+.hero-text {
+  font-size: 4em;
+}
+
+.text-box {
+  font-size: 2em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.text-md {
+  font-size: 2.5em;
+}
+
+.text-sm {
+  font-size: 1em;
+}
+
+.head-text {
+  font-size: 3em;
+}
+
+.text-xl {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: 1em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.2;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
