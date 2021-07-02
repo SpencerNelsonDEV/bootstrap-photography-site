@@ -40,6 +40,34 @@ a:hover {
     color: white;
 }
 
+.about-head {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/about-img.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #343a40;
+  border-radius: 0;
+  margin: 0;
+  padding: 7em;
+  color: white;
+}
+
+.contact-head {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/contact-img.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #343a40;
+  border-radius: 0;
+  margin: 0;
+  padding: 7em;
+  color: white;
+}
+
 .sub-head {
   font-size: 1.2em;
 }
@@ -48,11 +76,6 @@ a:hover {
   color: #fff;
   background-color: #d8d495;
   border-color: #d8d495;
-}
-
-.img-md {
-  max-width: 50%;
-  height: auto;
 }
 
 .img-md-thumbnail {
@@ -124,10 +147,16 @@ p {
 }
 
 .site-footer {
-  background-image: #343a40);
+  background-color: #343a40;
   padding: 20px 0;
+  color: white;
+}
+
+.fa {
+  color: white;
 }
 
 .thumb{
-  margin: 40px;
+  padding: 40px 20px 40px 20px;
+  margin-top:  50px;
 }
