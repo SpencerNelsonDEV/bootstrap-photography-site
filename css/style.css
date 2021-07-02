@@ -9,7 +9,7 @@ a:hover {
 }
 
 .navbar {
-  padding: 1.5rem 0;
+  padding: 1.5rem;
 }
 
 .hero {
@@ -26,6 +26,20 @@ a:hover {
   color: white;
 }
 
+.portfolio-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/flowers-img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #343a40;
+    border-radius: 0;
+    margin: 0;
+    padding: 7em;
+    color: white;
+}
+
 .sub-head {
   font-size: 1.2em;
 }
@@ -38,6 +52,7 @@ a:hover {
 
 .container-gray {
   background-color: darkgray;
+  margin: 0, -1;
 }
 
 .site-footer {
@@ -48,9 +63,13 @@ a:hover {
   font-size: 4em;
 }
 
+.portfolio-text {
+  font-size: 5em;
+}
+
 .text-box {
   font-size: 2em;
-  margin-left: 1em;
+  padding-left: 1em;
   margin-top: 1em;
 }
 
@@ -82,4 +101,13 @@ p {
   line-height: 1.2;
   padding-right: 1em;
   padding-bottom: 1em;
+}
+
+.site-footer {
+  background-image: #343a40);
+  padding: 20px 0;
+}
+
+.thumb{
+  margin: 40px;
 }
