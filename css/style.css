@@ -50,6 +50,26 @@ a:hover {
   border-color: #d8d495;
 }
 
+.img-md {
+  max-width: 50%;
+  height: auto;
+}
+
+.img-md-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 70%;
+  height: auto;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
 .container-gray {
   background-color: darkgray;
   margin: 0, -1;
