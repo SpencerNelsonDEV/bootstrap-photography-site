@@ -98,6 +98,9 @@ a:hover {
   margin: 0, -1;
 }
 
+.container-box {
+}
+
 .site-footer {
   background-color: grey;
 }
@@ -112,8 +115,12 @@ a:hover {
 
 .text-box {
   font-size: 2em;
-  padding-left: 1em;
+  padding: 0 6em;
   margin-top: 1em;
+}
+
+.text-contact {
+  font-size: 2em;
 }
 
 .text-md {
